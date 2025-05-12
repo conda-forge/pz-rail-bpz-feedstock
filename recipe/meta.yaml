@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }} 
-    - desc_bpz
+    - lsstdesc-bpz
     - pz-rail-base >=1.1.4
     - qp-prob
 
