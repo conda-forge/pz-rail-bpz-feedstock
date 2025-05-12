@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }} 
-    - desc_bpz
+    - lsstdesc-bpz
     - pz-rail-base >=1.1.4
     - qp-prob
 
