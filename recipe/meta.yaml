@@ -1,5 +1,5 @@
 {% set name = "pz-rail-bpz" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pz_rail_bpz-{{ version }}.tar.gz
-  sha256: 6862ec6a2e53ca34e84fcecafbd77cab21ca900e9952e3b0441fae1b96f951e0
+  sha256: 170758244fdb66c1f67a0a04dc86d0eeaf987e19c21dbe20c0f3303bbb637a99
 
 build:
   noarch: python
